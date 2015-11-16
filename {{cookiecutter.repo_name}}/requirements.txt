@@ -1,0 +1,2 @@
+# latest version of Django
+Django==1.8.6
