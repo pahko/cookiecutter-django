@@ -8,6 +8,8 @@ Features:
 ========
 
 * `Django <https://www.djangoproject.com/>`_ 1.8.X
+* `Django Classy Settings <https://github.com/funkybob/django-classy-settings>`_:
+  don't forget to set environment variable ``DJANGO_MODE`` (``Staging``, ``Production``)
 
 Usage:
 ------
@@ -35,7 +37,6 @@ TODO:
 
 * include Django Rest Framework
 * include base/core app
-* include implementation of Django Class based settings
 * split requirements per enviroment
 * include test suite
 * add support for Postgres SQL
