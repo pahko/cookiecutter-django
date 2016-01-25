@@ -6,8 +6,8 @@ class BaseSettings(cbs.BaseSettings):
     PROJECT_NAME = '{{cookiecutter.project_name}}'
 
     @cbs.env(key='DJANGO_SECRET_KEY')
-    def SECRET_KEY():
-        return ''
+    def SECRET_KEY(self):
+        return 'TESTING LOCALLY'
 
     @property
     def INSTALLED_APPS(self):
