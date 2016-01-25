@@ -37,7 +37,6 @@ TODO:
 ^^^^^
 
 * include Django Rest Framework
-* include base/core app
 * split requirements per enviroment
 * include test suite
 * add support for Postgres SQL
