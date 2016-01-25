@@ -3,7 +3,7 @@ import os
 
 
 class BaseSettings(cbs.BaseSettings):
-    project_name = '{{project_name}}'
+    PROJECT_NAME = '{{cookiecutter.project_name}}'
 
     @cbs.env(key='DJANGO_SECRET_KEY')
     def SECRET_KEY():
