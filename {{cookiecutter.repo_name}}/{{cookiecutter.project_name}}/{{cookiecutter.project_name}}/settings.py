@@ -12,7 +12,9 @@ class BaseSettings(cbs.BaseSettings):
     @property
     def INSTALLED_APPS(self):
         contrib = super(BaseSettings, self).INSTALLED_APPS
-        third_party = ()
+        third_party = (
+            'django_extensions',
+        )
         local = ()
 
         return contrib + third_party + local

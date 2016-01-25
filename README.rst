@@ -10,6 +10,7 @@ Features:
 * `Django <https://www.djangoproject.com/>`_ 1.8.X
 * `Django Classy Settings <https://github.com/funkybob/django-classy-settings>`_:
   don't forget to set environment variable ``DJANGO_MODE`` (``Staging``, ``Production``)
+* `Django Extensions <https://github.com/django-extensions/django-extensions>`_
 
 Usage:
 ------
